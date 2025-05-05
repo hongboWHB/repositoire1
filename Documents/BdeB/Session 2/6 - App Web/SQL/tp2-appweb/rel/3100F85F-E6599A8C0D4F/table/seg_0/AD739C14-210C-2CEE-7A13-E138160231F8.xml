@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD739C14-210C-2CEE-7A13-E138160231F8" name="élève">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:23:24 UTC</createdTime>
+<generatorID>78688FB8-E9AE-53BE-AD5A-672B0888F870</generatorID>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code_permanant" id="D84D657C-EF91-F2D9-9524-56E4F520D32C">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:23:24 UTC</createdTime>
+<generatorID>8D88CF07-2C71-58B8-AEB9-331AAD5AE634</generatorID>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="509A4158-070D-5272-29B9-52C887C94B13">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:23:24 UTC</createdTime>
+<generatorID>6963621B-BCEE-BE0A-8D1C-5BF5767E6A9D</generatorID>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prénom" id="C4E80559-F1E4-16AC-C1A7-FE4C067AAAB5">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:23:24 UTC</createdTime>
+<generatorID>C5A28F3A-407E-056B-9172-CD33B1EA8523</generatorID>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse" id="83851734-6A31-74BB-C779-64DEC440142E">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:23:24 UTC</createdTime>
+<generatorID>77464651-F7F2-3D84-E789-EF982538CB6D</generatorID>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age" id="1A90C67F-D4D8-5731-3A13-E0D0FEA3DB89">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:23:24 UTC</createdTime>
+<generatorID>CCC47BCB-06DD-86D8-794D-0812544C35EC</generatorID>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF758B4F-BC61-440D-E570-125DF8CFB786" name="élève_PK">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:23:24 UTC</createdTime>
+<generatorID>1CB9C269-C3DB-2CC6-8D5E-32346D9E0683</generatorID>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84D657C-EF91-F2D9-9524-56E4F520D32C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

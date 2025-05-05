@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tp2-appweb" id="2DF946C3-D486-06D8-7DB9-DCF10FC03E59" version="3.5">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 19:50:23 UTC</createdTime>
+<ownerDesignName>gestion_cours</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2DF946C3-D486-06D8-7DB9-DCF10FC03E59</designId>
+</OSDM_Design>

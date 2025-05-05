@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="suivre_cours" directorySegmentName="seg_0" id="3A0FFBB2-1C0D-A1B8-FBD9-021291AC3AAD">
+<createdBy>david</createdBy>
+<createdTime>2025-04-15 20:06:18 UTC</createdTime>
+<ownerDesignName>tp2-appweb</ownerDesignName>
+<engineerTo>
+<item key="3100F85F-8D51-4432-C0BB-E6599A8C0D4F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>78688FB8-E9AE-53BE-AD5A-672B0888F870</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AF06468E-6EDE-C6D2-2684-98A523FD6891</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
