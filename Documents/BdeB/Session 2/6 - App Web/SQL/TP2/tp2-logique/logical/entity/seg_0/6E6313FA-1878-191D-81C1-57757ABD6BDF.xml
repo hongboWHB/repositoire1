@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E6313FA-1878-191D-81C1-57757ABD6BDF" name="Session">
+<createdBy>david</createdBy>
+<createdTime>2025-05-05 23:35:58 UTC</createdTime>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_jeu" id="0A8C52E9-4788-4571-392C-9C234591E92A">
+<createdBy>david</createdBy>
+<createdTime>2025-05-05 23:47:00 UTC</createdTime>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_utilisateur" id="CE85E954-897A-3D98-7E7C-7EE514FA1676">
+<createdBy>david</createdBy>
+<createdTime>2025-05-05 23:47:24 UTC</createdTime>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temps" id="06FF70A6-E16E-4575-2A07-392BE7EF9AF0">
+<createdBy>david</createdBy>
+<createdTime>2025-05-05 23:47:34 UTC</createdTime>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="1398545C-CFC2-C509-52EA-DD2E24CA179D">
+<createdBy>david</createdBy>
+<createdTime>2025-05-05 23:47:46 UTC</createdTime>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_session" id="F99D5B11-25AB-437C-9F2E-78AEF0B26EA3">
+<createdBy>david</createdBy>
+<createdTime>2025-05-05 23:50:39 UTC</createdTime>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_utilisateur1" id="50D2CC67-0179-16AC-483E-4363E5E0D450">
+<createdBy>david</createdBy>
+<createdTime>2025-05-06 02:37:14 UTC</createdTime>
+<generatorID>33C79559-97D5-F66E-282A-44994ABE5497</generatorID>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<referedAttribute>875B9F22-E18F-C25D-943C-397B99D2E78B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jeu1" id="B2BA7F13-6401-9194-FDE7-EBF4DDCA0D22">
+<createdBy>david</createdBy>
+<createdTime>2025-05-06 02:37:37 UTC</createdTime>
+<generatorID>62CE17D0-6466-1F28-950F-F2C5C224F962</generatorID>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<referedAttribute>2373AEE7-D34A-4AA4-EC22-FFCED882B67A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13057FD1-B3B2-B0E2-F723-BBB1AAECD78D" name="Session PK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-05 23:47:07 UTC</createdTime>
+<ownerDesignName>tp2-logique</ownerDesignName>
+<engineerTo>
+<item key="1D8B63A8-E6AF-71C5-3137-7E68BA448029" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F99D5B11-25AB-437C-9F2E-78AEF0B26EA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
