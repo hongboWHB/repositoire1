@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8AE8C4EF-1031-FB2B-7174-35C74B961101" mainViewID="19E47818-6874-A47C-B686-204810BE90D6">
+<createdBy>david</createdBy>
+<createdTime>2025-05-21 23:56:54 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

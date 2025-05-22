@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B9852E9-02D8-D649-6B21-214AD42C44E4" name="commande">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>2174F7CC-C806-086B-4290-0527581D42C7</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_commande" id="35845E25-3C03-D2CD-157C-8CF5B74289B6">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>02527F5D-C5E5-6791-EBCB-2439B74382B4</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_commande" id="D87052A6-54B4-AA6A-EA9E-CBE382932007">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>D1602A8C-A159-8892-F379-BF44E4F0948E</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_client" id="7FB3B544-E5AA-1EF0-E050-C7372A6D4219">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>918B1160-1860-F068-B9A5-E5406C591F0E</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="0F36FF9C-B68F-E389-3596-7E68D4CC16A6">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>8611E69B-85DC-1C90-330D-9C7F83F08B12</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produits_id_produit" id="87ADDE36-3D6D-1655-4A8A-5CF310524701">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>08365CF3-D9CE-390C-7EEB-A1A172E11C8D</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B445D36A-7567-659E-B50B-F8F39BB2F4A4" referredColumn="3D8699C3-5EDD-0497-7A99-3928ABEED25A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDE778DC-F207-09CD-FA95-C8AE79C682CC" name="commande_PK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>1DB20A78-C4B4-C10B-0A3F-B03B369B3529</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35845E25-3C03-D2CD-157C-8CF5B74289B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="662715C8-56DA-0364-A2F6-140E1EB5F63B" name="commande_Produits_FK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>EEED950B-D4DF-AF6B-B26F-70AA398E0997</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87ADDE36-3D6D-1655-4A8A-5CF310524701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

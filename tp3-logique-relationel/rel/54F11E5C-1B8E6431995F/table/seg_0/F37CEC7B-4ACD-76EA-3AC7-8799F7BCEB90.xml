@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F37CEC7B-4ACD-76EA-3AC7-8799F7BCEB90" name="paiement">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>FCC761D1-C55C-C572-3537-355AAE84EC9E</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paiement" id="05460898-B0D5-198A-0AC0-50DA9F9E4A18">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>A2C95B0D-66ED-3FBC-06F8-24386F387438</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_paiement" id="03AAFEE8-ABD5-656B-5C3B-A9DA10710825">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>53A3C625-671A-52D9-5195-9F912751836A</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="montant" id="61E3C875-EA27-1DDA-E1B5-CFB44CEA9057">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>C8A49EDE-745A-3A07-DE25-1D6E0FCB9F00</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_commande" id="6F33AA1A-DDC4-44CB-5425-70872D08D183">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>DDAC7DB9-B2EB-D99B-B6AA-EB5A5E51E923</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produits_id_produit" id="58BB8EF3-E75C-317C-2032-E05FF6D2BD0F">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>73CB2AFF-57C8-E09F-DBDF-43B28FF4DE14</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CED5D0DE-39AE-3EF0-7C6C-4BB9DAB4EA4B" referredColumn="3D8699C3-5EDD-0497-7A99-3928ABEED25A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09122C9F-D714-D51E-B48C-5D929D3E0689" name="paiement_PK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>11074D12-A5DA-1530-68C1-967B035661D8</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05460898-B0D5-198A-0AC0-50DA9F9E4A18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C27F93F-D791-0EB5-2368-D5E852D9DC2F" name="paiement__IDX">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>13013E85-DB0B-01AE-B1B4-96E904A18AC7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="58BB8EF3-E75C-317C-2032-E05FF6D2BD0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5E022FD-F9F6-7475-A877-7069C704475C" name="paiement_Produits_FK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>13013E85-DB0B-01AE-B1B4-96E904A18AC7</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58BB8EF3-E75C-317C-2032-E05FF6D2BD0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

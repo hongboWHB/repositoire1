@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tp3-logique-relationel" id="37A8E243-6BA0-1E22-B1BF-0CAB126016AE" version="3.5">
+<createdBy>david</createdBy>
+<createdTime>2025-05-21 23:56:54 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>37A8E243-6BA0-1E22-B1BF-0CAB126016AE</designId>
+</OSDM_Design>

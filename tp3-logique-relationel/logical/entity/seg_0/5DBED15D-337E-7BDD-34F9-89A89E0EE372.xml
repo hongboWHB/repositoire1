@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DBED15D-337E-7BDD-34F9-89A89E0EE372" name="Produits">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:02:13 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produit" id="736BB0D4-8957-178F-40A3-14DB64EDF38F">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:02:26 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="2E9D2F21-1EF1-609B-4612-E99ADE5C753B">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:02:43 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="A44A041E-B497-AA8D-B47E-2B90A28B41E0">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:03:00 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix" id="9548B281-A513-D2D1-3287-B2E4AB3348F1">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:05:11 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="4843229E-9E76-FA8E-EF9F-F4074317417D">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:05:28 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categorie" id="1E038154-5CD3-1296-4427-7A750B28F7B4">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:05:42 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_client" id="0B30AAE8-F7FC-AF14-9F09-6C510BBCB9C6">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:11:18 UTC</createdTime>
+<generatorID>E136D05E-8E45-2BBF-2AA7-2EB95C9E7F70</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<referedAttribute>26DF1F3F-23AB-986F-5E26-4C9CCB07741D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA1C8BE5-2BE6-64E2-61F4-2E7E95F474F7" name="Produits PK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:02:37 UTC</createdTime>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<engineerTo>
+<item key="54F11E5C-EC0D-3985-51FD-1B8E6431995F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>736BB0D4-8957-178F-40A3-14DB64EDF38F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

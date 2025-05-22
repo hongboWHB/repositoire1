@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67688DD7-0EA6-61DF-EDC2-410ACA79F52D" name="Produits">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>5DBED15D-337E-7BDD-34F9-89A89E0EE372</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produit" id="3D8699C3-5EDD-0497-7A99-3928ABEED25A">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>736BB0D4-8957-178F-40A3-14DB64EDF38F</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="7DCB5470-CE17-0EF9-F5F1-2EE9933F3FDC">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>2E9D2F21-1EF1-609B-4612-E99ADE5C753B</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="28A1F2D3-2132-8B82-DD7C-5CA70FC9019F">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>A44A041E-B497-AA8D-B47E-2B90A28B41E0</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix" id="7EFDC55F-232E-68A7-8467-56CB9CBC8190">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>9548B281-A513-D2D1-3287-B2E4AB3348F1</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="CF21AA74-3B52-F6C2-D060-F3DC0AC5EDD5">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>4843229E-9E76-FA8E-EF9F-F4074317417D</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_categorie" id="826C43CF-9D1E-A767-4CFA-5D69707F1F8F">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>1E038154-5CD3-1296-4427-7A750B28F7B4</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_id_client" id="7893EF51-F781-B207-4A87-7F65DFDB597B">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>0B30AAE8-F7FC-AF14-9F09-6C510BBCB9C6</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DED5D2A8-6BC3-449E-EFBA-79801B7D1717" referredColumn="67B7DEEF-2B9D-F2D2-B246-0F23795D6AA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD7A6F02-5502-A951-C9AD-E8B45AF3F608" name="Produits_PK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>FA1C8BE5-2BE6-64E2-61F4-2E7E95F474F7</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D8699C3-5EDD-0497-7A99-3928ABEED25A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4BA4591-8A2F-4D62-3E5F-3E1A2DCDEDCD" name="Produits_Client_FK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>E136D05E-8E45-2BBF-2AA7-2EB95C9E7F70</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7893EF51-F781-B207-4A87-7F65DFDB597B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

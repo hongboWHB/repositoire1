@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC877A33-38B8-762E-2AD2-43AD35DB1A00" name="Client">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>7A8A512F-A873-3D9F-A504-A9ACEDBEFF60</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="67B7DEEF-2B9D-F2D2-B246-0F23795D6AA3">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>26DF1F3F-23AB-986F-5E26-4C9CCB07741D</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="39D4901E-4B6A-0F3A-AB62-3AE4F121B842">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>997F1B0F-7E99-E789-041C-F64737F514F0</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="9BDE12C6-F05D-08F3-329E-F36DC5DC1EDF">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>09870E51-059D-43DD-74F7-C0A14277B767</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telephone" id="33720389-41A4-2834-C1F5-1522BDB31A43">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>F49E218B-E7FE-4303-218F-B368594953AB</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="1BB96513-9660-03F6-14A9-339A330182F7">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>73DA427E-4907-D5AE-03B3-0E5ABBAD460D</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse" id="B169B9B4-2252-D7DE-ADC9-6D142016B2B9">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>D2B74EED-8452-D8F3-A7E4-1AE98ECADDBF</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5EE9DAF-5CFE-9852-3FFA-C3FAB2A1D2D2" name="Client_PK">
+<createdBy>david</createdBy>
+<createdTime>2025-05-22 00:16:25 UTC</createdTime>
+<generatorID>0B5DC0F2-2883-E16A-EE7D-6DB74B4CDDC4</generatorID>
+<ownerDesignName>tp3-logique-relationel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B7DEEF-2B9D-F2D2-B246-0F23795D6AA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
